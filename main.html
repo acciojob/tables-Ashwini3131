@@ -7,9 +7,12 @@
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
-  <table class="table">
-    <thead>
-      <tr class="highlighted-row">
+	<caption>List of all transactions</caption>
+	<div class="table-responsive">
+  <table class="table table-hover">
+	  
+    <thead class="table-dark">
+      <tr>
         <th>#</th>
         <th>From</th>
         <th>To</th>
@@ -35,14 +38,14 @@
         <td>John</td>
 		  <td>2000</td>
       </tr>
-       
+	</tbody>
+	  <tfoot>
       <tr>
-        <td> </td>
-        <td class="fw-bold">Total</td>
-        <td id="total" class="font-monospace text-end fw-bold">4000</td>
+             <td id="total" class="font-monospace text-end fw-bold" colspan="3">Total  4000</td>
       </tr>
-    </tbody>
+    </tfoot>
   </table>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
