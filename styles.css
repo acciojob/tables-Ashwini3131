@@ -1,2 +1,6 @@
 
 /* Your CSS Code here. */
+.highlighted-row {
+  background-color: black;
+	color:white;
+}
